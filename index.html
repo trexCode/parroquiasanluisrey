@@ -12,26 +12,35 @@
   </head>
   <body>
     <header id="main-header">
-        <div class="container-fluid" style="background-color:tomato; color:white; font-family: 'Varela Round', sans-serif;">
-          <div class="row"></div>
-          <div class="row"><h1 class="display-5">Parroquia San Luis Rey de Francia</h1></div>
-          <div class="row"></div>
-        </div><!-- Termino de Jumbotron -->
-      <div class="container">
-          <div id="menu">
-            <ul>
-              <li>
-                <a href="#">Inicio</a>
-              </li>
-              <li>
-                <a href="#">Acerca de</a>
-              </li>
-              <li>
-                <a href="#">Contacto</a>
-              </li>
-            </ul>
-          </div><!-- Cierra menu -->
-      </div><!-- Cierra contaniner -->
+        <div class="container-fluid" style="background-color:tomato; color:white; font-family: 'Varela Round', sans-serif; align-content: center">
+          <div class="container" style="padding-top: 5px; padding-bottom: 5px;">
+            <h1>Titulo del sitio</h1>
+          </div>
+        </div><!-- Finaliza Container FLuid -->
     </header><!-- Finaliza header -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" arial-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Acerca de</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+            <button class="btn btn-outline-info my-2 my-sm-0">Buscar</button>
+          </form>
+        </div>
+      </nav>
+    </div>
   </body>
 </html>
