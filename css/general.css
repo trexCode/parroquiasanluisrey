@@ -3,10 +3,6 @@
     background-color: aliceblue;
 }
 
-nav.navbar{
-    margin-bottom: 2%;
-}
-
 div.jumbotron {
     background-image: url("../img/prueba2.jpg");
     background-size: cover;
