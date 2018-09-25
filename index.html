@@ -2,8 +2,8 @@
 <html lang="es">
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"/>
-    <link rel=stylesheet" href="css/general.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel=styleSheet href='css/general.css'>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>    
@@ -12,14 +12,14 @@
   </head>
   <body>
     <header id="main-header">
-        <div class="container-fluid" style="background-color:tomato; color:white; font-family: 'Varela Round', sans-serif; align-content: center">
-          <div class="container" style="padding-top: 5px; padding-bottom: 5px;">
+        <div class="container-fluid header-title">
+          <div class="container text-center" style="padding-top: 5px; padding-bottom: 5px;">
             <h1>Titulo del sitio</h1>
           </div>
         </div><!-- Finaliza Container FLuid -->
     </header><!-- Finaliza header -->
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" arial-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -37,10 +37,32 @@
           </ul>
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
-            <button class="btn btn-outline-info my-2 my-sm-0">Buscar</button>
+            <button class="btn btn-outline-light my-2 my-sm-0">Buscar</button>
           </form>
         </div>
-      </nav>
-    </div>
+      </nav><!-- Finaliza Menú de navegación -->
+      <div class="jumbotron">
+        <div id="content-jumbotron">
+            <h1 class="display-4">Nombre Articulo</h1>
+            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, laborum nam suscipit consectetur atque dignissimos alias quae neque doloremque, culpa quis, in laudantium nisi ullam maxime nemo similique libero beatae.</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Seguir leyendo</a>
+        </div>
+      </div><!-- Finaliza Jumbotron -->
+      <div class="row">
+        <div class="col-lg-8">
+            <div class="card">
+                <img class="card-img-top" src="img/prueba3.jpg">
+                <div class="card-body">
+                  <h5 class="crd-title">Titulo Articulo</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore asperiores rerum laborum debitis odit ex possimus nihil tempora qui laboriosam sed cum impedit quae sunt dolorum error, fugiat laudantium excepturi!</p>
+                  <a href="#" class="btn btn-outline-dark">Continuar leyendo</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+          <p>Área de Noticias</p>
+        </div>
+      </div>
+    </div><!-- Finaliza Container -->
   </body>
 </html>
