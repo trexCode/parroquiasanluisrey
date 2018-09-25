@@ -12,3 +12,7 @@ div.jumbotron {
     background-size: cover;
     background-position: center;
 }
+
+#card-news {
+    padding: 0;
+}
