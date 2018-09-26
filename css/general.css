@@ -7,6 +7,16 @@
     max-height: 40px;
 }
 
+#fa-logo {
+    height: 40px;
+    width: auto;
+}
+
+#you-logo {
+    height: 40px;
+    width: auto;
+}
+
 div.jumbotron {
     background-image: url("../img/prueba3.jpg");
     background-size: cover;
@@ -23,6 +33,10 @@ div.jumbotron {
     font-weight: 500;
 }
 
+.card {
+    width: 100%;
+}
+
 #card-news {
     padding: 0;
 }
@@ -33,7 +47,7 @@ div.jumbotron {
 }
 
 #img-slide {
-    height: 450px;
+    height: 400px;
     width: auto;
 }
 
@@ -45,8 +59,8 @@ div.jumbotron {
     position: absolute;
     bottom: 15%;
     right: 0;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
     color: black;
     background: rgba(231, 222, 222, 0.3);
     border-radius: 15px;
