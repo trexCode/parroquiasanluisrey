@@ -26,3 +26,29 @@ div.jumbotron {
 #card-news {
     padding: 0;
 }
+
+#slider {
+    padding: 0;
+    margin-bottom: 5%;
+}
+
+#img-slide {
+    height: 450px;
+    width: auto;
+}
+
+.img-car-div{
+    position: relative;
+}
+
+.info-carousel {
+    position: absolute;
+    bottom: 15%;
+    right: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: black;
+    background: rgba(231, 222, 222, 0.3);
+    border-radius: 15px;
+    padding: 10px;
+}
