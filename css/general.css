@@ -1,12 +1,26 @@
 /* Clases personalizadas */
 #main-header {
-    background-color: aliceblue;
+    background-color: rgb(163, 168, 172);
+}
+
+#titulo {
+    max-height: 40px;
 }
 
 div.jumbotron {
-    background-image: url("../img/prueba2.jpg");
+    background-image: url("../img/prueba3.jpg");
     background-size: cover;
     background-position: center;
+}
+
+#titulo-jumbo {
+    color: black;
+    font-weight: bold;
+}
+
+#subtitulo-jumbo {
+    color: black;
+    font-weight: 500;
 }
 
 #card-news {
